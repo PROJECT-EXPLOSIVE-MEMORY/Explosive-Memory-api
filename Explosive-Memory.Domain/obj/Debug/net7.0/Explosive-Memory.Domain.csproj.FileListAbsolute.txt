@@ -1,0 +1,11 @@
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\bin\Debug\net7.0\Explosive-Memory.Domain.deps.json
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\bin\Debug\net7.0\Explosive-Memory.Domain.dll
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\bin\Debug\net7.0\Explosive-Memory.Domain.pdb
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.AssemblyInfoInputs.cache
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.AssemblyInfo.cs
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.csproj.CoreCompileInputs.cache
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.dll
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\refint\Explosive-Memory.Domain.dll
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\Explosive-Memory.Domain.pdb
+D:\repos\Explosive-Memory-api\Explosive-Memory.Domain\obj\Debug\net7.0\ref\Explosive-Memory.Domain.dll
