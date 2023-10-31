@@ -107,6 +107,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Explosive-Memory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Explosive-Memory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Explosive-Memory.Domain.dll": {}
+        }
       }
     }
   },
@@ -460,10 +470,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Explosive-Memory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Explosive-Memory.Domain/Explosive-Memory.Domain.csproj",
+      "msbuildProject": "../Explosive-Memory.Domain/Explosive-Memory.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Explosive-Memory.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -500,7 +516,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Domain\\Explosive-Memory.Domain.csproj": {
+              "projectPath": "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Domain\\Explosive-Memory.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

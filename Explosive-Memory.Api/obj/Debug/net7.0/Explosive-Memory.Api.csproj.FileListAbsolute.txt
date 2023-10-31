@@ -31,3 +31,5 @@ D:\repos\Explosive-Memory-api\Explosive-Memory.Api\obj\Debug\net7.0\refint\Explo
 D:\repos\Explosive-Memory-api\Explosive-Memory.Api\obj\Debug\net7.0\Explosive-Memory.Api.pdb
 D:\repos\Explosive-Memory-api\Explosive-Memory.Api\obj\Debug\net7.0\Explosive-Memory.Api.genruntimeconfig.cache
 D:\repos\Explosive-Memory-api\Explosive-Memory.Api\obj\Debug\net7.0\ref\Explosive-Memory.Api.dll
+D:\repos\Explosive-Memory-api\Explosive-Memory.Api\bin\Debug\net7.0\Explosive-Memory.Domain.dll
+D:\repos\Explosive-Memory-api\Explosive-Memory.Api\bin\Debug\net7.0\Explosive-Memory.Domain.pdb
