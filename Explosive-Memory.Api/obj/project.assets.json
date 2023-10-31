@@ -108,6 +108,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Explosive-Memory.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Explosive-Memory.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Explosive-Memory.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Explosive-Memory.Data.dll": {}
+        }
+      },
       "Explosive-Memory.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -471,6 +484,11 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "Explosive-Memory.Data/1.0.0": {
+      "type": "project",
+      "path": "../Explosive-Memory.Data/Explosive-Memory.Data.csproj",
+      "msbuildProject": "../Explosive-Memory.Data/Explosive-Memory.Data.csproj"
+    },
     "Explosive-Memory.Domain/1.0.0": {
       "type": "project",
       "path": "../Explosive-Memory.Domain/Explosive-Memory.Domain.csproj",
@@ -479,6 +497,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Explosive-Memory.Data >= 1.0.0",
       "Explosive-Memory.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -517,6 +536,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Data\\Explosive-Memory.Data.csproj": {
+              "projectPath": "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Data\\Explosive-Memory.Data.csproj"
+            },
             "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Domain\\Explosive-Memory.Domain.csproj": {
               "projectPath": "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Domain\\Explosive-Memory.Domain.csproj"
             }
