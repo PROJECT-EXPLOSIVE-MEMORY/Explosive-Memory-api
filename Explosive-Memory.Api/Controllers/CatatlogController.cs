@@ -15,10 +15,14 @@ namespace Explosive.Memory.Api.Controllers
             _db =db;
         }
 
-       [HttpGet("{id:int}")]
+        [HttpGet("{id:int}")]
         public IActionResult GetItem(int id)
         {
-            return Ok(_db.Items);
+            var item = _db.Items.Find(id); 
+            if (item == null){
+                return NotFound();
+            }
+            return Ok();
         }
 
         [HttpPost]
