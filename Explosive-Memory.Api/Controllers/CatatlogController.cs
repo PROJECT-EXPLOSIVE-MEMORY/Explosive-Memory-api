@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Explosive.Memory.Domain.Catalog;
-
+using Explosive.Memory.Data;
 
 namespace Explosive.Memory.Api.Controllers
 {
@@ -8,13 +8,17 @@ namespace Explosive.Memory.Api.Controllers
     [Route("[controller]")]
     public class CatalogController : ControllerBase
     {
+        private readonly StoreContext _db;
+
+        public CatalogController(StoreContext db)
+        {
+            _db =db;
+        }
+
        [HttpGet("{id:int}")]
         public IActionResult GetItem(int id)
         {
-            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            item.Id = id;
-
-            return Ok(item);
+            return Ok(_db.Items);
         }
 
         [HttpPost]
