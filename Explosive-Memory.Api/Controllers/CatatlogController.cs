@@ -35,11 +35,16 @@ namespace Explosive.Memory.Api.Controllers
 
 
         [HttpPost("{id:int}/ratings")]
-        public IActionResult PostRatings(int id, [FromBody] Rating rating )
+        public IActionResult PostRating(int id, [FromBody] Rating rating)
         {
-            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            item.Id = id;
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
             item.AddRatings(rating);
+            _db.SaveChanges();
 
             return Ok(item);
         }
