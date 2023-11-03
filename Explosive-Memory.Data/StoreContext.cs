@@ -1,4 +1,5 @@
 ﻿using Explosive.Memory.Domain.Catalog;
+using Explosive.Memory.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace Explosive.Memory.Data
@@ -14,5 +15,7 @@ namespace Explosive.Memory.Data
                 base.OnModelCreating(builder);
                 DbInitializer.Initialize(builder);
             }
+
+        public DbSet<Order> Orders {get; set;}
     }
 }
