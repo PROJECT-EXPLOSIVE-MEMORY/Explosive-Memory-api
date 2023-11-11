@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Explosive_Memory.Api.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20231111212635_init")]
+    [Migration("20231111230317_init")]
     partial class init
     {
         /// <inheritdoc />
