@@ -26,6 +26,12 @@ namespace Explosive.Memory.Api.Controllers
             return Ok(item);
         }
 
+        [HttpGet()]
+        public IActionResult GetAllItem()
+        {
+            return Ok(_db.Items);
+        }
+
         [HttpPost]
         public IActionResult Post(Item item)
         {
