@@ -88,6 +88,44 @@ namespace Explosive_Memory.Api.Migrations
                     b.ToTable("Rating");
                 });
 
+            modelBuilder.Entity("Explosive.Memory.Domain.Orders.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("Explosive.Memory.Domain.Orders.OrderItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ItemId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("OrderId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItem");
+                });
+
             modelBuilder.Entity("Explosive.Memory.Domain.Catalog.Rating", b =>
                 {
                     b.HasOne("Explosive.Memory.Domain.Catalog.Item", null)
@@ -95,9 +133,29 @@ namespace Explosive_Memory.Api.Migrations
                         .HasForeignKey("ItemId");
                 });
 
+            modelBuilder.Entity("Explosive.Memory.Domain.Orders.OrderItem", b =>
+                {
+                    b.HasOne("Explosive.Memory.Domain.Catalog.Item", "Item")
+                        .WithMany()
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Explosive.Memory.Domain.Orders.Order", null)
+                        .WithMany("Items")
+                        .HasForeignKey("OrderId");
+
+                    b.Navigation("Item");
+                });
+
             modelBuilder.Entity("Explosive.Memory.Domain.Catalog.Item", b =>
                 {
                     b.Navigation("Ratings");
+                });
+
+            modelBuilder.Entity("Explosive.Memory.Domain.Orders.Order", b =>
+                {
+                    b.Navigation("Items");
                 });
 #pragma warning restore 612, 618
         }

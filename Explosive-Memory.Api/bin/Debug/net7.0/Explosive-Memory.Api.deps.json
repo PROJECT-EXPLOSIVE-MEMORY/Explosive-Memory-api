@@ -11,6 +11,7 @@
           "Explosive-Memory.Data": "1.0.0",
           "Explosive-Memory.Domain": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.10",
+          "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
