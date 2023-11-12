@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Api", "Exp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Domain", "Explosive-Memory.Domain\Explosive-Memory.Domain.csproj", "{AD7F79FA-76C9-461C-9C71-AB54F45DE113}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Data", "Explosive-Memory.Data\Explosive-Memory.Data.csproj", "{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{AD7F79FA-76C9-461C-9C71-AB54F45DE113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD7F79FA-76C9-461C-9C71-AB54F45DE113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD7F79FA-76C9-461C-9C71-AB54F45DE113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
