@@ -9,7 +9,8 @@ public class StoreContextFactory : IDesignTimeDbContextFactory<StoreContext>
     {
         var optionsBuilder = new DbContextOptionsBuilder<StoreContext>();
 
-        optionsBuilder.UseSqlite("Data Source=../Registrar.sqlite");
+        optionsBuilder.UseSqlite("Data Source=../Registrar.sqlite",
+    b => b.MigrationsAssembly("Explosive-Memory.Api"));
 
         return new StoreContext(optionsBuilder.Options);
     }
