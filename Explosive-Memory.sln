@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Domain", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Data", "Explosive-Memory.Data\Explosive-Memory.Data.csproj", "{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7E2EBD17-76B3-44C6-BE93-C8AF02177661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explosive-Memory.Domain.Tests", "tests\Explosive-Memory.Domain.Tests\Explosive-Memory.Domain.Tests.csproj", "{E670A890-91EC-4A70-88CC-C428810A8E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18087CDD-018A-4EC6-A2C9-63AB2A5106F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E670A890-91EC-4A70-88CC-C428810A8E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E670A890-91EC-4A70-88CC-C428810A8E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E670A890-91EC-4A70-88CC-C428810A8E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E670A890-91EC-4A70-88CC-C428810A8E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E670A890-91EC-4A70-88CC-C428810A8E13} = {7E2EBD17-76B3-44C6-BE93-C8AF02177661}
 	EndGlobalSection
 EndGlobal
