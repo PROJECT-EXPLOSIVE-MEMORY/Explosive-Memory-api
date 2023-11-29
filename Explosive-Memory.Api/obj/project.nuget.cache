@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bvXVcjE1bNCgvHXmQDZJcB6c3woCW3ceY9SuIz0UGsA5sDG+kB/p8y0ivVaJ4iTTN/ZIOUxG2QNZqKC97eU5WA==",
+  "dgSpecHash": "/xKxGc4DGuKSuP3y6fZ4AroIffFjPPDWzvqSXDLPynl+awPAErkalf/O0XO3c9HUIjA/XKfvtfYmhnnKGC06GA==",
   "success": true,
   "projectFilePath": "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Api\\Explosive-Memory.Api.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\jason\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.13\\microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

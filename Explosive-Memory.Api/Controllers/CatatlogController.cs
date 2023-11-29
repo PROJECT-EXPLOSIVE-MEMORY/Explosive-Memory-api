@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Explosive.Memory.Domain.Catalog;
 using Explosive.Memory.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace Explosive.Memory.Api.Controllers
 {
@@ -77,6 +79,7 @@ namespace Explosive.Memory.Api.Controllers
 
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
