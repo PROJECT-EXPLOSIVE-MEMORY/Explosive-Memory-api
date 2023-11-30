@@ -1,0 +1,10 @@
+### Get token from Auth0
+curl --request POST \
+  --url https://dev-2l10vds0buvvpq53.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"agtzW9Z7bjjri9zjxOCbgk5Ffb1ianVS","client_secret":"veihIg2Bet_-vUNkQzZ44bzDtxmLAyMDz_GYDkiBDKwcMOjQyWOZGLHO3WHR9P5h","audience":"https://Explosive-memory","grant_type":"client_credentials"}'
+
+### DELETE a Item to the Catalog collection
+curl --request DELETE \
+  --url http://localhost:5224/catalog/1 \
+  --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlNVZnp5Mnd4UEFXNG9Lc0NwT2R5NyJ9.eyJpc3MiOiJodHRwczovL2Rldi0ybDEwdmRzMGJ1dnZwcTUzLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhZ3R6VzlaN2JqanJpOXpqeE9DYmdrNUZmYjFpYW5WU0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9FeHBsb3NpdmUtbWVtb3J5IiwiaWF0IjoxNzAxMjE1ODU4LCJleHAiOjE3MDEzMDIyNTgsImF6cCI6ImFndHpXOVo3Ympqcmk5emp4T0NiZ2s1RmZiMWlhblZTIiwic2NvcGUiOiJkZWxldGU6Y2F0YWxvZyIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.NLMEA9ijie-P9-vgtvIKfESVan2TsJkD0UmjhyTmzDXbwPWuWl-Nc6ARAP3a99GEkuO7UNeF34CYorixwm82O1Wfa29EC_6SXtY6lBqNe7-3ckoeZaB06Vsfgc6DEZiyfC8CJFJ4MkpYAamHYiPE9PIqy2xxFNMXCZ-Ykx5ZXSacdLMJ_MqI5UiS56vsFkL2FJ6JU7t1jnNjhMlLUdOmOvyjc1IlOaciN4i2LC5aEK-Q-N-i1zdX6UW8czcOxRP-apvB-x5jMPTcz-js_7Zq4YZy36N0_-tWeaMi7SHMoSCUM_rwM3Jwopp0LEcXIV1awbrWgiRMPvHSgaYCmKSQSg'
