@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/xKxGc4DGuKSuP3y6fZ4AroIffFjPPDWzvqSXDLPynl+awPAErkalf/O0XO3c9HUIjA/XKfvtfYmhnnKGC06GA==",
+  "dgSpecHash": "VxN+3h6U/XGNlxLK2ICG3gZpAUWKAMftgJ10aAstJk7I39cWzHh87AyRXIXX6mW8HCjCQDG+j+/Sf2oJmC634g==",
   "success": true,
   "projectFilePath": "D:\\repos\\Explosive-Memory-api\\Explosive-Memory.Api\\Explosive-Memory.Api.csproj",
   "expectedPackageFiles": [
@@ -74,8 +74,8 @@
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.4.0\\microsoft.codeanalysis.scripting.common.4.4.0.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.4.0\\microsoft.codeanalysis.workspaces.common.4.4.0.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\jason\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
-    "C:\\Users\\jason\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.2\\microsoft.data.sqlclient.5.1.2.nupkg.sha512",
+    "C:\\Users\\jason\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.diasymreader\\1.4.0\\microsoft.diasymreader.1.4.0.nupkg.sha512",
     "C:\\Users\\jason\\.nuget\\packages\\microsoft.dotnet.scaffolding.shared\\7.0.11\\microsoft.dotnet.scaffolding.shared.7.0.11.nupkg.sha512",
