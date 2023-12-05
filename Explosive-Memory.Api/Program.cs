@@ -5,7 +5,7 @@ using Microsoft.Extensions.Options;
 using Explosive.Memory.Api.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 
-
+//TEST
 
 var builder = WebApplication.CreateBuilder(args);
 
