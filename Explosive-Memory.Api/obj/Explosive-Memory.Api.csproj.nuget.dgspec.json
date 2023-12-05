@@ -91,6 +91,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "microsoft.data.sqlclient": {
+              "target": "Package",
+              "version": "[5.1.2, )"
             }
           },
           "imports": [
