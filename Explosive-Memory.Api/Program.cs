@@ -46,7 +46,8 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
     {
-        builder.WithOrigins("http://localhost:3000")
+        builder.WithOrigins("http://localhost:3000", 
+        "https://ambitious-wave-04c53dc0f.4.azurestaticapps.net")
         .AllowAnyHeader()
         .AllowAnyMethod();
     });
